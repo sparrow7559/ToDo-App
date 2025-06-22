@@ -275,6 +275,9 @@ body{
 
 .signature-footer {
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     padding: 20px;
     font-size: 14px;
     color: #6b7280;
