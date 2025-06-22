@@ -274,19 +274,19 @@ body{
 }
 
 .signature-footer {
-    text-align: center;
     position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
     font-size: 14px;
     color: #6b7280;
-    background-color: transparent; 
-    margin-top: 40px;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 6px;
 }
+
 
 
 .signature-footer a{
